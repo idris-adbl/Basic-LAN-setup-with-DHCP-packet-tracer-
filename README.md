@@ -111,7 +111,7 @@ note: straight through cable = connecting unlike devices
 
      6. Save the configuration:
      
-          Router# write memory
+           Router# write memory
 
 ***Step 4: Configure the Wireless Router***
 
