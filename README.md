@@ -83,9 +83,7 @@ note: straight through cable = connecting unlike devices
 
            Router(config)#do wr
     
-           Building configuration...
-    
-          [OK]
+           Building configuration...[OK]
     
            Router(config)#int gi0/0
     
