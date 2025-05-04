@@ -131,9 +131,9 @@ Router to obtain an IP from Router-0).
 4. Go to the LAN settings and configure:
    
 - IP Address: 192.168.2.1
-- 
+  
 - Subnet Mask: 255.255.255.0
-- 
+  
 5. Enable the DHCP server to provide IP addresses on the 192.168.2.0/24 network.
 
 ***Step 5: Configure the End Devices***
@@ -142,7 +142,7 @@ Router to obtain an IP from Router-0).
 
 1. Click on PC-0, then go to the Desktop tab and open the IP Configuration window.
 
-- Set the IP configuration to DHCP (this allows the PC to receive an IP
+    - Set the IP configuration to DHCP (this allows the PC to receive an IP
 address from the router).
 
 2. Repeat this step for PC-1, PC-2, and Printer-0.
@@ -152,8 +152,8 @@ address from the router).
 1. Click on Laptop-0, then go to the Desktop tab and open the IP Configuration
 window.
 
-- Select DHCP for automatic IP addressing.
-- 
+    - Select DHCP for automatic IP addressing.
+       
 2. Go to the Laptop-0's Config tab, select Wireless0, and choose the
 "SmallOfficeWiFi" SSID.
 
@@ -163,9 +163,9 @@ window.
  
 **Step 1: Choose a Static IP Address**
 
-—The printer should have an IP in the same network as the other wired devices but outside the DHCP pool to avoid conflicts.
+   —The printer should have an IP in the same network as the other wired devices but outside the DHCP pool to avoid conflicts.
 
-—For example, if your DHCP pool is from 192.168.1.2 to 192.168.1.100, you can
+   —For example, if your DHCP pool is from 192.168.1.2 to 192.168.1.100, you can
 assign the printer an IP like 192.168.1.101.
 
 **Step 2: Set the Printer to Use a Static IP**
@@ -197,9 +197,9 @@ Verify the assigned IP address (should be in the range of 192.168.1.x).
 
 Ping the router (ping 192.168.1.1) to check the connection.
 
-3. From Laptop-0, open the Command Prompt, type:
+3. From Laptop-0, open the Command Prompt, type: Ipconfig
    
-     Ipconfig
+   
 Ensure the IP is in the 192.168.2.x range.
 
 Ping the router (ping 192.168.2.1) to check the wireless connection.
@@ -208,7 +208,9 @@ Ping the router (ping 192.168.2.1) to check the wireless connection.
 
 Click on any of the PCs (e.g., PC-0), go to the Desktop tab, and open the
 Command Prompt.
+
 Type the following command to ping the printer’s static IP address
 ping 192.168.1.101
+
 —If everything is configured correctly, you should receive reply messages
 confirming that the PC can communicate with the printer.
